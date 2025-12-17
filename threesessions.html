@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google Looker Studio — Self-Paced Training Portal</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #12c2b3;
+      --secondary: #7c5cff;
+      --accent: #ffb703;
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --muted: #94a3b8;
+      --card: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: var(--light);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    header {
+      padding: 5rem 1.5rem 4rem;
+      text-align: center;
+      background: radial-gradient(circle at top, rgba(18,194,179,0.25), transparent 55%);
+    }
+
+    header h1 {
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+
+    header p {
+      max-width: 860px;
+      margin: 0 auto 2rem;
+      font-size: 1.05rem;
+      color: var(--muted);
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 0.9rem 1.6rem;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #020617;
+      font-weight: 600;
+      box-shadow: 0 10px 30px rgba(18,194,179,0.35);
+    }
+
+    section {
+      padding: 4rem 1.5rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-title h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title p {
+      color: var(--muted);
+      max-width: 720px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .card {
+      background: linear-gradient(180deg, var(--card), rgba(255,255,255,0.02));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.45);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: rgba(255,255,255,0.12);
+      margin-bottom: 0.8rem;
+    }
+
+    .card h3 {
+      margin-top: 0.2rem;
+      margin-bottom: 0.6rem;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .watch {
+      margin-top: 1.5rem;
+      display: inline-block;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .learning-outcomes {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      margin-top: 3rem;
+    }
+
+    .outcome {
+      padding: 1.5rem;
+      border-radius: 14px;
+      background: rgba(124,92,255,0.12);
+      border: 1px solid rgba(124,92,255,0.25);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      padding: 3rem 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer strong {
+      color: var(--light);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Google Looker Studio<br>Self-Paced Training Series</h1>
+  <p>
+    A practical, hands-on learning experience designed to help analysts, storytellers,
+    and decision-makers master <strong>data storytelling, dashboard reconstruction,
+    and Looker Studio visualization workflows</strong> — at your own pace, with no sign-in required.
+  </p>
+  <a class="cta" href="#sessions">Start Learning</a>
+</header>
+
+<section>
+  <div class="section-title">
+    <h2>About the Training</h2>
+    <p>
+      This self-paced portal curates three live workshops facilitated by
+      <strong>Camila Boynton</strong>, offering real-world demonstrations,
+      thoughtful design principles, and practical techniques for building
+      compelling dashboards in Google Looker Studio.
+    </p>
+  </div>
+
+  <div class="learning-outcomes">
+    <div class="outcome">Design dashboards that communicate insight, not just data.</div>
+    <div class="outcome">Apply storytelling principles to analytical workflows.</div>
+    <div class="outcome">Rebuild and publish professional Looker Studio dashboards.</div>
+    <div class="outcome">Explore advanced layout, visualization, and coding concepts.</div>
+  </div>
+</section>
+
+<section id="sessions">
+  <div class="section-title">
+    <h2>Training Sessions</h2>
+    <p>
+      Each session is available on YouTube for flexible, self-directed learning.
+      Learners may watch in sequence or jump directly to the topic of interest.
+    </p>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <span class="badge">Session 1 · Nov 15, 2025</span>
+      <h3>Data Storytelling & Dashboard Design</h3>
+      <p>
+        A foundational session focused on visual structure, narrative flow,
+        and translating analytical findings into dashboards that drive understanding
+        and action.
+      </p>
+      <a class="watch" href="https://www.youtube.com/watch?v=VSh0KqsMdq8" target="_blank">
+        ▶ Watch on YouTube
+      </a>
+    </div>
+
+    <div class="card">
+      <span class="badge">Session 2 · Nov 29, 2025</span>
+      <h3>Dashboard Reconstruction & Publishing</h3>
+      <p>
+        Learn how to deconstruct existing dashboards, rebuild them with intention,
+        and publish polished outputs suitable for professional and organizational use.
+      </p>
+      <a class="watch" href="https://www.youtube.com/watch?v=SK7EU_Dx02A" target="_blank">
+        ▶ Watch on YouTube
+      </a>
+    </div>
+
+    <div class="card">
+      <span class="badge">Session 3 · Dec 6, 2025</span>
+      <h3>Looker Studio Coding & Advanced Visualization</h3>
+      <p>
+        A deeper dive into layout logic, advanced visualization techniques,
+        and creative problem-solving for complex data storytelling challenges.
+      </p>
+      <a class="watch" href="https://www.youtube.com/watch?v=BVgoOxioXGE" target="_blank">
+        ▶ Watch on YouTube
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>
+    Facilitated by <strong>Camila Boynton</strong> · Self-paced learning experience
+  </p>
+  <p>
+    Course portal supported by <strong>SI Analytics</strong>
+  </p>
+</footer>
+
+</body>
+</html>
